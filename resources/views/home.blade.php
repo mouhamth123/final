@@ -19,7 +19,7 @@
 </div>
 
 </div>
-<div><a href="/image/create" class="btn btn-primary" >Ajouter une image</a></div><br><br>
+<div><a href="/image/create"  >Ajouter une image</a></div><br><br>
 
 
 <div class="container">

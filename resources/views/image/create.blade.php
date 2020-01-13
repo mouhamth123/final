@@ -12,7 +12,7 @@
    @endforeach
 @endif
 
-           <form action="{{route('ajouter_image')}}" method="post" enctype="multipart/form-data" >
+           <form action="{{route('home')}}" method="post" enctype="multipart/form-data" >
                @csrf
             
                <div>
