@@ -114,7 +114,7 @@ public function indexe(){
             $this->uploadImage($image, $folder, 'public', $image_name);
         }
            $imag->save();
-           return view('home');
+           return redirect(route('Images.index'));
         }
 
          public function create()
