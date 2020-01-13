@@ -21,9 +21,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/home','HomeController@update_avatar');
 
+Route::get('/all', 'CategoriesController@all');
+
 Route::get('/nature', 'CategoriesController@nature');
 
-Route::get('/oser', 'CategoriesController@oser');
+Route::get('/other', 'CategoriesController@oser');
 
 Route::get('/faune', 'CategoriesController@faune');
 

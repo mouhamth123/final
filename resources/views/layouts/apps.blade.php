@@ -35,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">A Propos</a>
+            <a class="nav-link js-scroll-trigger" href="/all">All</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/faune">Animaux</a>
@@ -44,7 +44,7 @@
             <a class="nav-link js-scroll-trigger" href="/architecture">Architechture</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/oser">Oser</a>
+            <a class="nav-link js-scroll-trigger" href="/other">Oser</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/nature">Nature</a>

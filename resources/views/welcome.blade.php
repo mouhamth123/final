@@ -35,16 +35,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">A Propos</a>
+            <a class="nav-link js-scroll-trigger" href="/all">All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/faune">Animaux</a>
+            <a class="nav-link js-scroll-trigger" href="/faune">Animals</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/architecture">Architechture</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/oser">Oser</a>
+            <a class="nav-link js-scroll-trigger" href="/other">Other</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/nature">Nature</a>
@@ -62,9 +62,11 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">WORLD PICTURES</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">EXPLOREZ LE MONDE DE L'IMAGE.</h2>
-        <a href="/login" class="btn btn-primary js-scroll-trigger">Espace membre</a>
-        <a href="/register" class="btn btn-primary js-scroll-trigger">s'inscrire</a>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">
+EXPLORE THE WORLD OF IMAGES.</h2>
+        <a href="/login" class="btn btn-primary js-scroll-trigger">Member area</a>
+        <a href="/register" class="btn btn-primary js-scroll-trigger">
+register</a>
       </div>
     </div>
   </header>
@@ -84,7 +86,8 @@
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>nature</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <p class="text-black-50 mb-0">
+extraordinary nature pictures</p>
           </div>
         </div>
       </div>
@@ -99,70 +102,57 @@
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">architecture</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <p class="mb-0 text-white-50">
+here is an example of this category among many others.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
       </div>
+      
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+         <a href="/faune"> <img class="img-fluid" src="img/kim-becker-0JKLiPcjJVc-unsplash.jpg" alt=""></a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Animals</h4>
+                <p class="mb-0 text-white-50">
+
+World Picture offers different images of this category!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
       </div>
-
+     
             <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-03.jpg" alt="">
+         <a href="/oser"><img class="img-fluid" src="img/00.GIF" alt=""></a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">architecture</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Other</h4>
+                <p class="mb-0 text-white-50">
+this category presents various images as extraordinary of each other</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
       </div>
-
+<br>
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <a href="/faune"><img class="img-fluid" src="img/demo-image-02.jpg" alt=""></a>
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
+     
 
   <!-- Signup Section -->
   <section id="signup" class="signup-section">

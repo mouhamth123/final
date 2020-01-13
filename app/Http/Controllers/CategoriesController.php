@@ -22,6 +22,16 @@ use Intervention\Image\ImageManager;
 
 class CategoriesController extends Controller
 {
+
+  public function all(){
+        $categories = new \App\Category();
+        $image = DB::table('images')->get();
+         //$image->images;   
+      // dd($image);
+    
+        //$image= Image::create($request->All());
+        return view('categories.all',compact('categories','image'));
+    }
       
     public function nature(){
         $categories = new \App\Category();

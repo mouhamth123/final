@@ -114,7 +114,7 @@ public function indexe(){
             $this->uploadImage($image, $folder, 'public', $image_name);
         }
            $imag->save();
-           return redirect(route('Images.index'));
+           return redirect(route('home'));
         }
 
          public function create()
@@ -168,7 +168,8 @@ return view('image.edit', compact('image','categories'));
 
        $product->save();
    }
-   return redirect()->route('Images.index')->with(['success' => "Image mise à jour"]);
+   return redirect()->route('Images.index')->with(['success' => "
+Updated image successfully"]);
 
 }
 
@@ -179,7 +180,7 @@ return view('image.edit', compact('image','categories'));
    $image = \App\Image::find($id);
    if($image)
        $image->delete();
-   return back()->with(['success' => "Image $image->nom_image supprimé"]);
+   return back()->with(['success' => "delated image successfully"]);
 }
 
 
