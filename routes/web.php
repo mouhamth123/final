@@ -43,7 +43,7 @@ Route::patch('image/{id}/update', 'HomeController@update')->name('update_image')
 
 Route::delete('image/{id}', 'HomeController@destroy');
 
-Route::get('image/{id}/download', 'HomeController@show')->name('download_image');
+Route::get('image/{id}/download', 'CategoriesController@show')->name('download_image');
 
 Route::get('/profil','UserController@profile')->name("profile");
 

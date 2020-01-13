@@ -71,4 +71,14 @@ class CategoriesController extends Controller
         return view('categories.architecture',compact('categories','image'));
     }
 
+     public function show($id)
+ {
+    $image=\App\Image::find($id);//on recupere le produit
+    ($image->images);
+    $file = public_path().$image->images;
+    $headers = array('Content-Type: application/pdf',);
+    return Response::download($file);
+    //return Storage::download('image_1576787968.jpg');
+ }
+
 }
