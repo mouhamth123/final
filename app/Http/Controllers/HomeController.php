@@ -114,7 +114,7 @@ public function indexe(){
             $this->uploadImage($image, $folder, 'public', $image_name);
         }
            $imag->save();
-           return redirect(route('Images.index'));
+           return redirect('image/create');
         }
 
          public function create()
@@ -184,15 +184,7 @@ Updated image successfully"]);
 }
 
 
- public function show($id)
- {
-    $image=\App\Image::find($id);//on recupere le produit
-    ($image->images);
-    $file = public_path().$image->images;
-    $headers = array('Content-Type: application/pdf',);
-    return Response::download($file);
-    //return Storage::download('image_1576787968.jpg');
- }
+
        public function users()
     {
         $u= DB::table('users')->where('type','simple' )->get();
