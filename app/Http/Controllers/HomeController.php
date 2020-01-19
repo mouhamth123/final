@@ -168,9 +168,7 @@ return view('image.edit', compact('image','categories'));
 
        $product->save();
    }
-   return redirect()->route('Images.index')->with(['success' => "
-Updated image successfully"]);
-
+   return redirect('image/create');
 }
 
 
