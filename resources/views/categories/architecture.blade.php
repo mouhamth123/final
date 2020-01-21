@@ -14,6 +14,7 @@
 
 <!-- Button trigger modal -->
 <div class="col-md-4">
+   <br>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#editModal{{$image->id}}">
 
 <img class="card-img-top img-fluid mb-3 mb-lg-0"src="{{$image->images ? asset($image->images) : asset('uploads/images/default.png')}}" alt="{{$image->nom_image}}" height="300" width="500">
