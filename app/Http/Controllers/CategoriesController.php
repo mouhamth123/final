@@ -44,7 +44,7 @@ class CategoriesController extends Controller
     }
     public function oser(){
         $categories = new \App\Category();
-        $image = DB::table('images')->where('categories_id',2 )->get();
+        $image = DB::table('images')->where('categories_id',11 )->get();
          //$image->images;   
      // dd($image);
     
@@ -54,7 +54,7 @@ class CategoriesController extends Controller
 
     public function faune(){
         $categories = new \App\Category();
-        $image = DB::table('images')->where('categories_id',4 )->get();
+        $image = DB::table('images')->where('categories_id',31 )->get();
          //$image->images;   
       dd($categories);
     
