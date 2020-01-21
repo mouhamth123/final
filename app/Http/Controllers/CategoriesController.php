@@ -63,7 +63,7 @@ class CategoriesController extends Controller
     }
     public function architecture(){
         $categories = new \App\Category();
-        $image = DB::table('images')->where('categories_id',3 )->get();
+        $image = DB::table('images')->where('categories_id',21 )->get();
          //$image->images;   
       // dd($image);
     

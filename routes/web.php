@@ -45,8 +45,8 @@ Route::delete('image/{id}', 'HomeController@destroy');
 
 Route::get('image/{id}/download', 'CategoriesController@show')->name('download_image');
 
-Route::get('/profil','UserController@profile')->name("profile");
+Route::post('/profil','UserController@profile')->name("profile");
 
-Route::get('/profile','HomeController@update_avatar');
+Route::post('/profile','HomeController@update_avatar');
 
 Route::get('/users', 'HomeController@users');
