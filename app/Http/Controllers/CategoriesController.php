@@ -27,7 +27,7 @@ class CategoriesController extends Controller
         $categories = new \App\Category();
         $image = DB::table('images')->get();
          //$image->images;   
-      // dd($image);
+      dd($image);
     
         //$image= Image::create($request->All());
         return view('categories.all',compact('categories','image'));
